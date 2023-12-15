@@ -20,6 +20,9 @@ public class LotteryTicket {
         }
     }
 
+    /*
+    Returns 6 random number to constitute a lottery ticket
+     */
     public static int[] generateNumbers(){
         int[] ticket = new int[LENGTH];
         Random random = new Random();
